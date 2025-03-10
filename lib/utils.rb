@@ -1,9 +1,9 @@
 class Utils
     class << self
-        def show_with_outline(*array)
+        def show_with_outline(*args)
             line = "-------------------------"
             puts line
-            array.map {|item| puts item}
+            args.map {|item| puts item}
             puts line
         end
 
